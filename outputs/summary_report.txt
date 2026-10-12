@@ -1,0 +1,19 @@
+POWER LOAD TYPE PREDICTION REPORT
+========================================
+
+Dataset shape: (35041, 14)
+Training records: 32064
+Testing records: 2977
+
+Training period:
+2018-01-01 00:00:00 to 2018-11-30 23:45:00
+
+Testing period:
+2018-12-01 00:00:00 to 2018-12-31 23:45:00
+
+Model comparison:
+              Model  Accuracy  Macro_Precision  Macro_Recall  Macro_F1
+      Random Forest  0.942896         0.925372      0.939323  0.930797
+Logistic Regression  0.582130         0.527294      0.508607  0.502911
+
+Best model by macro F1-score: Random Forest
